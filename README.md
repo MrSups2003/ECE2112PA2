@@ -41,4 +41,6 @@ From this ndarray, determine all the elements that are divisible by 3. Save the 
 - Now, I save this under the name 'div_by_3.npy'.
 - Load this file, and the divisible elements will appear.
 - Here is my coded input:
-  
+ ![image](https://github.com/user-attachments/assets/afc54e76-8ad9-41c4-b495-ae5701c142c0)
+
+
