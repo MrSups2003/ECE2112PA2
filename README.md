@@ -19,3 +19,7 @@ In this problem, create a random 5 x 5 array and store it to variable X. Normali
 
 - For this problem, I created an array X with random numbers. To do that, I used 'np.random.random'. This allows the entry of random numbers that are in float. Next is the size of the array, which is a 5x5 square. So this becomes X = np.random.random(5,5).
 - Next, I created a variable Z, the formula for normalizing X. I also created a print(z) just for fun
+- I then save the normalization of X as 'X_normalized.npy'
+- Just type in np.load('X_normalized.npy') and the normalized ndarray will appear
+- Here is my coded input
+- 
