@@ -33,4 +33,12 @@ Create the following 10 x 10 ndarray.
 which are the squares of the first 100 positive integers.
 From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
 
-- For this problem, I created an array using np.arange from 1 to 101. Why this ranging? It's because it will start from 1 and it will end at 100. 101 is just the limit of "less than 101"
+- For this problem, I created an array using variable A for np.arange from 1 to 101. Why this range? It's because it will start from 1 and it will end at 100. 101 is just the limit of "less than 101."
+- Next, I created another variable called 'B,' which will be A.reshape(10,10). This allows the shape of the array to be a 10x10 square.
+- Next is that I created another variable called 'C,' which will be the squared elements from B, which is A that is reshaped to a 10x10 square array and ranges from 1 to 100
+- I also wanted to print variable C just to show what the elements inside the array
+- Next, I will index C, which will be C[C%3==0]. This will allow us to print the elements that are divisible by 3.
+- Now, I save this under the name 'div_by_3.npy'.
+- Load this file, and the divisible elements will appear.
+- Here is my coded input:
+  
