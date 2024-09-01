@@ -17,9 +17,20 @@ Mean, and scaling means dividing by its standard deviation. Mathematically, norm
 In Python, element-wise mean and standard deviation can be obtained using .mean() and .std() calls.
 In this problem, create a random 5 x 5 array and store it to variable X. Normalize X. Save your normalized ndarray as X_normalized.npy
 
+- Before we start, I have to import numpy first as np. Meaning I have to input 'import numpy as np'
 - For this problem, I created an array X with random numbers. To do that, I used 'np.random.random'. This allows the entry of random numbers that are in float. Next is the size of the array, which is a 5x5 square. So this becomes X = np.random.random(5,5).
 - Next, I created a variable Z, the formula for normalizing X. I also created a print(z) just for fun
 - I then save the normalization of X as 'X_normalized.npy'
 - Just type in np.load('X_normalized.npy') and the normalized ndarray will appear
-- Here is my coded input
-- 
+- Here is my coded input:
+  ![image](https://github.com/user-attachments/assets/00530939-f4ec-4ae5-9488-d6a66263c1e2)
+
+# DIVISIBLE BY 3 PROBLEM: 
+Create the following 10 x 10 ndarray.
+
+![image](https://github.com/user-attachments/assets/056cdcc4-572d-4a48-8d8d-2df4b5852156)
+
+which are the squares of the first 100 positive integers.
+From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
+
+- For this problem, I created an array using np.arange from 1 to 101. Why this ranging? It's because it will start from 1 and it will end at 100. 101 is just the limit of "less than 101"
